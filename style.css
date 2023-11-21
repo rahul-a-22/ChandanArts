@@ -1,5 +1,6 @@
 body{
-    background-color: black;
+    height: 100%;
+    background: linear-gradient(to top,black,gray,white);
     color: white;
 }
 #a{
@@ -8,6 +9,10 @@ body{
     height: 70px;
 }
 #b{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrU8yOsHi1Xf0kNbCI0sybBnFkS5ug7hrOCQ&usqp=CAU);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
     margin-left: 10px;
     font-size: 70px;
 }
@@ -22,6 +27,7 @@ body{
     width: 30%;
     height: 30%;
     border: 10px solid blue;
+    border-radius: 10%;
 }
 #x{
     position: absolute;
@@ -45,6 +51,7 @@ body{
     width: 30%;
     height: 50%;
     border: 10px solid blue;
+    border-radius: 10%;
 }
 #x2{
     position: absolute;
@@ -78,3 +85,4 @@ body{
     border: 10px solid red;
     cursor: pointer;
 }
+
