@@ -98,10 +98,14 @@ img{
     opacity: 0;
 }
 @media only screen and (max-width: 500px) {
-    h1{
+    #b{
         text-align: center;
+        font-size: 5vh;
     }
     #overText{
         font-size: 24px;
+    }
+    #b::after, #b::before{
+        height: 0.2vh;
     }
 }
